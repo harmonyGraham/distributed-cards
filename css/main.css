@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: #ede3db;
+    font-family: "Georgia, Denk One";
+  }
+ 
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+      margin: 0;
+      padding: .5rem;
+  }
+
+  img {
+      width: 100%;
+      margin: 0 0 1.5em;
+  }
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h1 {
+      margin: 0;
+  }
+
+  h2 {
+      margin: 0 0 1.5em;
+  }
+
+ ol {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .25em;
+    column-gap: 1rem;
+ }
+
+ li {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ p {
+     margin-bottom: auto;
+ }
